@@ -1,5 +1,10 @@
 # 🦟 Malaria Symptom Triage Helper
 
+
+## Live Application
+
+ **Streamlit App:** https://tsfojyhrk6dq3dmk6tpedb.streamlit.app
+
 ## Project Overview
 
 The Malaria Symptom Triage Helper is an educational AI/ML project that uses machine learning to analyse basic patient information and self-reported symptoms associated with malaria.
