@@ -94,7 +94,7 @@ with st.form("malaria_triage_form"):
     # COMMON SYMPTOMS
     # -------------------------------------------------
 
-    st.subheader("🤒 Symptoms")
+    st.subheader("Symptoms")
 
     fever_days = st.number_input(
         "Number of days with fever",
@@ -120,7 +120,7 @@ with st.form("malaria_triage_form"):
     # DANGER SIGNS
     # -------------------------------------------------
 
-    st.subheader("🚨 Danger Signs")
+    st.subheader("Danger Signs")
 
     st.caption(
         "Select any serious warning signs currently being experienced."
@@ -160,7 +160,7 @@ with st.form("malaria_triage_form"):
     # -------------------------------------------------
 
     submitted = st.form_submit_button(
-        "🔍 Check Symptoms",
+        "Check Symptoms",
         type="primary",
         use_container_width=True
     )
@@ -174,7 +174,7 @@ if submitted:
 
     st.divider()
 
-    st.subheader("📋 Triage Result")
+    st.subheader("Triage Result")
 
 
     # -------------------------------------------------
@@ -217,7 +217,7 @@ if submitted:
     if danger_detected:
 
         st.error(
-            "🚨 URGENT MEDICAL ASSESSMENT RECOMMENDED"
+            "URGENT MEDICAL ASSESSMENT RECOMMENDED"
         )
 
         st.write(
