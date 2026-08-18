@@ -409,5 +409,5 @@ with st.expander("ℹ️ About this project"):
 st.divider()
 
 st.caption(
-    "🦟 Malaria Symptom Triage Helper | AI/ML Student Project"
+    "🦟 Malaria Symptom Triage Helper | AI/ML Project by Chidinma Onyemachi"
 )
